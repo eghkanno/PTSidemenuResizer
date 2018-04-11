@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "pivotal restyler",
+    "version": "0.1",
+    "description": "Narrow side menu for Pivotal Tracker",
+    "author": "eghkanno",
+    "content_scripts": [
+        {
+        "matches": [ "http://www.pivotaltracker.com/*", "https://www.pivotaltracker.com/*" ],
+        "css": [ "mystyle.css" ],
+        "js": [ "script.js" ]
+        }
+    ]
+}

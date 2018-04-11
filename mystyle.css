@@ -1,0 +1,7 @@
+aside.sidebar {
+    width: 140px !important;
+}
+
+section.project article.main, section.workspace article.main {
+    left: 141px !important;
+}
