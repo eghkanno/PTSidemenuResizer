@@ -2,6 +2,7 @@ aside.sidebar {
     width: 140px !important;
 }
 
-section.project article.main, section.workspace article.main {
+/* mainのオフセット */
+section.main.project article.main {
     left: 141px !important;
 }
