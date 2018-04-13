@@ -33,9 +33,8 @@ observer.observe(target[0], {
 });
 
 target.width(initial_width);
-
+console.log("restyler working!");
 }
 
 });
 
-console.log("restyler working!");
