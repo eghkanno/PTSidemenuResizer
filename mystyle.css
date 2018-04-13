@@ -1,8 +1,0 @@
-aside.sidebar {
-    width: 140px !important;
-}
-
-/* mainのオフセット */
-section.main.project article.main {
-    left: 141px !important;
-}

@@ -1,14 +1,13 @@
 {
     "manifest_version": 2,
-    "name": "pivotal restyler",
-    "version": "0.1",
+    "name": "Sidebar Resize for pivotal tracker",
+    "version": "0.9",
     "description": "Narrow side menu for Pivotal Tracker",
-    "author": "eghkanno",
+    "author": "budoucha",
     "content_scripts": [
         {
         "matches": [ "http://www.pivotaltracker.com/*", "https://www.pivotaltracker.com/*" ],
-        "css": [ "mystyle.css" ],
-        "js": [ "script.js" ]
+        "js": [ "jquery-3.3.1.min.js", "jquery.funcResizeBox.js", "script.js" ]
         }
     ]
 }
