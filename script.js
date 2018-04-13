@@ -1,5 +1,8 @@
 $(function(){
 
+setTimeout(main ,5000);
+
+function main(){
 const target = $('aside.sidebar');
 const initial_width = 140;
 
@@ -30,6 +33,8 @@ observer.observe(target[0], {
 });
 
 target.width(initial_width);
+
+}
 
 });
 
