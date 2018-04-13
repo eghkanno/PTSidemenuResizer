@@ -1,4 +1,4 @@
-# Pivotal Restyler v0.1
+# Pivotal Restyler v0.9
 
 ## 概要
 [Pivotal Tracker](https://www.pivotaltracker.com)の左側のサイドメニューの幅を狭くしてページを見やすくするChrome拡張機能です。
@@ -12,4 +12,8 @@
 
 ## TODO
 - ビルド
+- ドラッグリサイズ実装に伴い発生するようになったスクロールバーを消したい
+- 現状の秒数決め打ちからDOMの有無を確認するループへと変更
+
+## DONE
 - ドラッグで幅変更
