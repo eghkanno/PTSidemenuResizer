@@ -5,7 +5,7 @@ Chrome extension that allows to make [Pivotal Tracker](https://www.pivotaltracke
 
 ## install
 1. Download the repository.
-2. Open <chrome://extensions>
+2. Open extension settings(chrome://extensions)
 3. Enable developer mode.
 4. From 'Load unpacked extension' Select the downloaded directory
 
@@ -17,7 +17,7 @@ Webstore
 
 ## 導入方法
 1. 適当な箇所にファイルを展開する。
-2. <chrome://extensions>を開く。
+2. 拡張機能設定(chrome://extensions)を開く。
 3. 最上部の「デベロッパーモード」チェックボックスを有効化する。
 4. 「パッケージ化されていない拡張機能を読み込む」から先程展開したフォルダ(manifest.jsonが入っているフォルダ)を選択する。
 
