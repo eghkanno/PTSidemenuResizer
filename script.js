@@ -1,26 +1,26 @@
 $(function () {
     const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
-    let findSidebar = () => {
-        return $('aside.sidebar div.sidebar_wrapper').length;
+
+    //操作対象の要素が生成済みかを確認する
+    let sidebarFound = () => {
+        let found = $('aside.sidebar div.sidebar_wrapper').length>0? true:false; 
+        return found;
     };
 
     (async () => {
         for (i = 0; i < 20; i++) {
             await sleep(500);
-            f = findSidebar();
-            console.log(f);
-            if (f > 0) {
+            if (sidebarFound()) {
                 init();
                 break;
             }
         }
-        if (!findSidebar()) {
+        if (!sidebarFound()) {
         console.log("Something wrong. Please reload later...");
         }
     })();
 
     function init() {
-        console.log("init");
         const target = $('aside.sidebar');
         const initial_width = 140;
 
