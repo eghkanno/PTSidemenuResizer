@@ -1,4 +1,16 @@
-# Pivotal Restyler v0.9
+# Resizable side menu for Pivotal Tracker v1.0
+
+## description 
+Chrome extension that allows to make [Pivotal Tracker](https://www.pivotaltracker.com)'s side menu resizable.
+
+## install
+1. Download the repository.
+2. Open <chrome://extensions>
+3. Enable developer mode.
+4. From 'Load unpacked extension' Select the downloaded directory
+
+## TODO
+Webstore
 
 ## 概要
 [Pivotal Tracker](https://www.pivotaltracker.com)の左側のサイドメニューの幅を狭くしてページを見やすくするChrome拡張機能です。
@@ -11,7 +23,7 @@
 
 
 ## TODO
-- ウェブストアにアップしないと使えない事が判明したのでその対処
+- ウェブストアにアップしないとパッケージ化した拡張機能をインストールできない事が判明したのでその対処
 
 ## DONE
 - ドラッグで幅変更
