@@ -1,6 +1,6 @@
-$(function(){
+$(function () {
 
-    setTimeout(init ,5000);
+    setTimeout(init, 5000);
 
     function init() {
 
@@ -12,8 +12,8 @@ $(function(){
             minWidth: 10,
             maxWidth: 1000,
             mouseRange: 30,
-            isWidthResize:true,
-            isHeightResize:false
+            isWidthResize: true,
+            isHeightResize: false
         })
 
         let observer = new MutationObserver(
@@ -22,9 +22,9 @@ $(function(){
             }
         );
 
-        target.on("sidebar", function(e){
-            let offset = target.width()+1;
-            $('section.main.project article.main').css({'left': offset});
+        target.on("sidebar", function (e) {
+            let offset = target.width() + 1;
+            $('section.main.project article.main').css({ 'left': offset });
         });
 
         observer.observe(target[0], {
