@@ -3,7 +3,7 @@ $(function () {
 
     //操作対象の要素が生成済みかを確認する
     let sidebarFound = () => {
-        let found = $('aside.sidebar div.sidebar_wrapper').length>0? true:false; 
+        let found = $('aside.sidebar div.sidebar_wrapper').length > 0 ? true : false;
         return found;
     };
 
@@ -16,7 +16,7 @@ $(function () {
             }
         }
         if (!sidebarFound()) {
-        console.log("Something wrong. Please reload later...");
+            console.log("Something wrong. Please reload later...");
         }
     })();
 
@@ -51,7 +51,7 @@ $(function () {
 
         target.width(initial_width);
 
-        $('#sidebar_area > aside').css('overflow','visible');//謎のスクロールバーが出現するのを防ぐのに必要
+        $('#sidebar_area > aside').css('overflow', 'visible');//謎のスクロールバーが出現するのを防ぐのに必要
 
         console.log("side menu resizer working!");
     }
