@@ -24,7 +24,6 @@ $(function () {
         const target = $('aside.sidebar');
         const initial_width = 140;
 
-
         target.funcResizeBox({
             minWidth: 10,
             maxWidth: 1000,
@@ -51,8 +50,10 @@ $(function () {
         });
 
         target.width(initial_width);
+
+        $('#sidebar_area > aside').css('overflow','visible');//謎のスクロールバーが出現するのを防ぐのに必要
+
         console.log("restyler working!");
     }
 
 });
-
