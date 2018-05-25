@@ -1,9 +1,26 @@
 $(function () {
+    const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
+    let findSidebar = () => {
+        return $('aside.sidebar div.sidebar_wrapper').length;
+    };
 
-    setTimeout(init, 5000);
+    (async () => {
+        for (i = 0; i < 20; i++) {
+            await sleep(500);
+            f = findSidebar();
+            console.log(f);
+            if (f > 0) {
+                init();
+                break;
+            }
+        }
+        if (!findSidebar()) {
+        console.log("Something wrong. Please reload later...");
+        }
+    })();
 
     function init() {
-
+        console.log("init");
         const target = $('aside.sidebar');
         const initial_width = 140;
 
