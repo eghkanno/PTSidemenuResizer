@@ -53,7 +53,7 @@ $(function () {
 
         $('#sidebar_area > aside').css('overflow','visible');//謎のスクロールバーが出現するのを防ぐのに必要
 
-        console.log("restyler working!");
+        console.log("side menu resizer working!");
     }
 
 });

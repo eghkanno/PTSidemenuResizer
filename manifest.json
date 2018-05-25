@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Sidebar Resize for pivotal tracker",
-    "version": "0.9",
-    "description": "Narrow side menu for Pivotal Tracker",
+    "version": "1.0",
+    "description": "resizable side menu for Pivotal Tracker",
     "author": "budoucha",
     "content_scripts": [
         {
