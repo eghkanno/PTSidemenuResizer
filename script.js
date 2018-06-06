@@ -33,8 +33,17 @@ $(function () {
         })
 
         let observer = new MutationObserver(
-            function () {
+            () => {
                 target.trigger('sidebar');
+                let table = $('article.main > section.panels > div.table');
+
+                let panels = table.children('div.panel.visible');
+                let n = panels.length;
+                let w = table.parent().width();
+                let margin = parseInt(panels.css('margin-left'), 10);
+
+                table.width(w);
+                table.children('div.panel.visible').width(w / n - margin -1);
             }
         );
 

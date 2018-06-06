@@ -35,3 +35,4 @@ Chrome extension that allows to make [Pivotal Tracker](https://www.pivotaltracke
 - パッケージ化
 - アイコン作成
 - ウェブストア登録
+- 各パネルの幅の自動補正
