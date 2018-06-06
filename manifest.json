@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Resizable side menu for Pivotal Tracker",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Makes Pivotal Tracker's side menu resizable.",
-    "author": "budoucha",
+    "author": "eghkanno",
     "content_scripts": [
         {
             "matches": [

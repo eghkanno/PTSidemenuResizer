@@ -1,4 +1,6 @@
-# Resizable side menu for Pivotal Tracker v1.0
+# Resizable side menu for Pivotal Tracker v1.1
+Github Repository:
+https://github.com/eghkanno/PTSidemenuResizer
 
 ## description 
 Chrome extension that allows to make [Pivotal Tracker](https://www.pivotaltracker.com)'s side menu resizable.
